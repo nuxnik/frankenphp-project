@@ -6,8 +6,8 @@ ARG SERV_NAME
 
 ARG MERCURE_PUBLISHER_KEY
 ARG MERCURE_SUBSCRIBER_KEY
-ENV MERCURE_PUBLISHER_JWT_KEY=4siLaHyg+YrO8ap1bu5IaTkgdEwsLECZ7sXQVHICaCc=
-ENV MERCURE_SUBSCRIBER_JWT_KEY=4siLaHyg+YrO8ap1bu5IaTkgdEwsLECZ7sXQVHICaCc=
+ENV MERCURE_PUBLISHER_JWT_KEY=${MERCURE_PUBLISHER_KEY}
+ENV MERCURE_SUBSCRIBER_JWT_KEY=${MERCURE_SUBSCRIBER_KEY}
 
 ENV SERVER_NAME=${SERV_NAME}
 
@@ -51,7 +51,3 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
 
 # workermode: for sometime later
 # ENV FRANKENPHP_CONFIG="worker /app/public/index.php"
-
-
-# COPY ./docker/data/caddy /data
-# RUN chmod -R 755 /data
