@@ -59,8 +59,7 @@ the file gets renamed to `.env-laravel`. You can rename it back, when the instal
 NOTE2: make sure your directory is empty, only `.env` and `/docker` should be there, this will override everything.
 
 ### usage as submodule
-in your project dir, run 
+instead of running a git clone, you can run
 ```bash
-git init 
-git submodule add <repo> docker
+git submodule add https://github.com/pictus/frankenphp-project.git docker
 ```
