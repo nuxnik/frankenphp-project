@@ -1,3 +1,41 @@
+Welcome to `frankenphp-project`, a quickstarter for [FrankenPHP](https://frankenphp.dev) for your next amazing project. It takes away the tedious work of setting up Docker and saves you time. Simply include this repository in your project and start working on your amazing idea.
+
+- 🐳 Easy Docker setup for PHP projects
+- ⏰ Saves time by providing helpful utilities
+- 📦 Based on the original [FrankenPHP](https://hub.docker.com/r/dunglas/frankenphp#!) image 
+
+
+### Getting Started
+To get started with `frankenphp-project`, follow these simple steps:
+
+- download the repo 
+- create `.env`
+- `docker-compose up -d`
+
+See [Quick Start](/docs/quick-start.md)
+
+
+
+-------
+
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.--
+.-
+-.
+
+
+
+
 ### NOTE: WIP
 
 # Frankenphp Project Docker
